@@ -45,7 +45,8 @@
 		<header id="header" class="alt">
 			<span class="logo"><img src="images/logo.svg" alt="" /></span>
 			<h1 property="dc:title">Tabular Data Analysis (TaDA) Workshop @ VLDB 2023</h1>
-			<p>Collocated with <a href="https://vldb.org/2023/">the 49th International Conference on Very Large Data Bases (VLDB)</a> -
+			<p>Collocated with <a href="https://vldb.org/2023/">the 49th International Conference on Very Large Data
+					Bases (VLDB)</a> -
 				Vancouver, Canada - September 1, 2023
 			</p>
 		</header>
@@ -139,10 +140,13 @@
 						<li> Practical Applications of Tabular Data Analysis </li>
 						<li> Benchmarking and Evaluation Frameworks for Tabular Data Analysis </li>
 					</ul>
-					
-					<b>Call for late breaking results:</b> We are now ready to receive your poster paper (2-page, double-column) submissions for late breaking results, until June 20, AoE. 
-					Those submissions will go through a light review phase and accepted submissions will have the opportunity to give a short presentation at a workshop session, 
-					for in-person attendees only, as well as a 5-minute recorded video presentation, shared on the workshop website.
+
+					<b>Call for late breaking results:</b> We are now ready to receive your poster paper (2-page,
+					double-column) submissions for late breaking results, until June 20, AoE.
+					Those submissions will go through a light review phase and accepted submissions will have the
+					opportunity to give a short presentation at a workshop session,
+					for in-person attendees only, as well as a 5-minute recorded video presentation, shared on the
+					workshop website.
 				</div>
 			</section>
 
@@ -197,53 +201,77 @@
 						<h2>Program</h2>
 					</header>
 					<p>
-						<ul>
-							<li>10:00 to 10:10 - Opening</li>
-							<li>10:10 to 11:00 - Keynote talk - Renée Miller: "From Discovery to Integration of Data Lake Tables"</li>
-							<li>11:00 to 12:00 - Session 1</li>
-							<li>12:00 to 13:30 - Lunch</li>
-							<li>13:30 to 14:15 - Keynote talk - Alon Halevy: "Personal Digital Data: Where LLMs Meet Structured Data"</li>
-							<li>14:15 to 15:00 - Session 2</li>
-							<li>15:00 to 15:55 - Poster session</li>
-							<li>15:55 to 16:00 - Closing and Awards</li>
-						</ul>
+					<ul>
+						<li>10:00 to 10:10 - Opening</li>
+						<li>10:10 to 11:00 - Keynote talk - Renée Miller: "From Discovery to Integration of Data Lake
+							Tables"</li>
+						<li>11:00 to 12:00 - Session 1</li>
+						<li>12:00 to 13:30 - Lunch</li>
+						<li>13:30 to 14:15 - Keynote talk - Alon Halevy: "Personal Digital Data: Where LLMs Meet
+							Structured Data"</li>
+						<li>14:15 to 15:00 - Session 2</li>
+						<li>15:00 to 15:55 - Poster session</li>
+						<li>15:55 to 16:00 - Closing and Awards</li>
+					</ul>
 					</p>
 					<p>
-						Keynote by <a href="https://www.khoury.northeastern.edu/people/renee-miller/"><b>Renée Miller, Northeastern University</b></a> <br>
+						Keynote by <a href="https://www.khoury.northeastern.edu/people/renee-miller/"><b>Renée Miller,
+								Northeastern University</b></a> <br>
 						Title: <b>From Discovery to Integration of Data Lake Tables</b><br>
-						Abstract: We have made tremendous strides in providing tools for data scientists to discover new tables 
-						that are useful for their analyses. But despite these advances, the proper integration of discovered 
-						tables has been under-explored. An interesting semantics for integration, called full disjunction, was 
-						proposed in the 1990’s, but there has been little progress in using it for data science to integrate 
-						tables culled from data lakes. In this talk, I will overview both ALITE, a method to integrate (possibly 
-						incomplete) tables using a new scalable implementation of full disjunction, and DIALITE, an open discovery 
-						system that lets users discover, integrate, then analyze a set of tables. To evaluate our systems, we 
-						developed and shared three new benchmarks for integration that use real data lake tables. I will present 
-						open problems and challenges in developing and evaluating scalable table search and integration methods on 
-						real data. <br><br>
-						
-						The ALITE [1] work was led by Aamod Khatiwada in collaboration with Professors Roee Shraga of the Worcester 
-						Polytechnic Institute, Renée Miller, and Wolfgang Gatterbauer of Northeastern University in Boston. DIALTE [2] 
-						was also led by Aamod Khatiwada in collaboration with Professors Roee Shraga and Renée Miller. <br/>
-						[1] Aamod Khatiwada, Roee Shraga, Wolfgang Gatterbauer, Renée J. Miller: Integrating Data Lake Tables. PVLDB. 16(4): 932-945 (2022).<br/>
-						[2] Aamod Khatiwada, Roee Shraga, Renée J. Miller: DIALITE: Discover, Align and Integrate Open Data Tables. ACM SIGMOD, 187-190 (2023).
+						Abstract: We have made tremendous strides in providing tools for data scientists to discover new
+						tables that are useful for their analyses. But despite these advances, the proper integration of
+						discovered tables has been under-explored. An interesting semantics for integration, called full
+						disjunction, was proposed in the 1990’s, but there has been little progress in using it for data
+						science to integrate tables culled from data lakes. In this talk, I will overview both ALITE, a
+						method to integrate (possibly incomplete) tables using a new scalable implementation of full
+						disjunction, and DIALITE, an open discovery system that lets users discover, integrate, then
+						analyze a set of tables using discovery methods such as Starmie, a new table union search
+						method. To evaluate our systems, we developed and shared three new benchmarks for integration
+						that use real data lake tables. I will present open problems and challenges in developing and
+						evaluating scalable table search and integration methods on real data. <br><br>
+
+						The ALITE [1] work was led by Aamod Khatiwada in collaboration with Professors Roee Shraga of
+						the Worcester Polytechnic Institute, Renée Miller, and Wolfgang Gatterbauer of Northeastern
+						University in Boston. DIALTE [2} was also led by Aamod Khatiwada in collaboration with
+						Professors Roee Shraga and Renée Miller.
+						Starmie [3] was led by Grace Fan in collaboration with Megagon Labs researchers Jin Wang,
+						Yuliang Li and Dan Zhang.
+						<br />
+						[1] Aamod Khatiwada, Roee Shraga, Wolfgang Gatterbauer, Renée J. Miller: Integrating Data Lake
+						Tables. PVLDB. 16(4): 932-945 (2022).<br />
+						[2] Aamod Khatiwada, Roee Shraga, Renée J. Miller: DIALITE: Discover, Align and Integrate Open
+						Data Tables. ACM SIGMOD, 187-190 (2023).<br />
+						[3] Grace Fan, Jin Wang, Yuliang Li, Dan Zhang, Renée J. Miller: Semantics-aware Dataset
+						Discovery from Data Lakes with Contextualized Column-based Representations. PVLDB. 16(4):
+						1726-1739 (2023)
+
+
 					</p>
 					<p>
-						Keynote by <a href="https://ai.facebook.com/people/alon-halevy/"><b>Alon Halevey, Meta AI</b></a> <br>
+						Keynote by <a href="https://ai.facebook.com/people/alon-halevy/"><b>Alon Halevey, Meta
+								AI</b></a> <br>
 						Title: <b>Personal Digital Data: Where LLMs Meet Structured Data</b><br>
 						Abstract: The important question of how companies and organizations use our data has
 						received a lot of attention in the technology and policy communities. An equally important
 						question that deserves more focus going forward is how we, as individuals, can take advantage of
-						the data we generate to improve our health, vitality, and productivity and our overall well-being.
-						We create a variety of data throughout our days, including our photos, workout stats, locations we’ve been
-						to, the stuff we buy online and the content we consume. Fusing all this data together enables us to build a
-						fascinating timeline of our lives. To leverage these timelines in order to help us produce new satisfying
-						experiences we need to be able to query our timelines in natural language and to share short summaries of
-						it with external services.  <br><br>
+						the data we generate to improve our health, vitality, and productivity and our overall
+						well-being.
+						We create a variety of data throughout our days, including our photos, workout stats, locations
+						we’ve been
+						to, the stuff we buy online and the content we consume. Fusing all this data together enables us
+						to build a
+						fascinating timeline of our lives. To leverage these timelines in order to help us produce new
+						satisfying
+						experiences we need to be able to query our timelines in natural language and to share short
+						summaries of
+						it with external services. <br><br>
 
-						This talk will start by motivating the work on fusing personal digital data including its potential pitfalls.
-						I will then discuss multiple approaches to the problem of querying timelines, which is an application area that
-						forces us to consider deeply how language models can be used to query data that is partially structured and partially not. 
+						This talk will start by motivating the work on fusing personal digital data including its
+						potential pitfalls.
+						I will then discuss multiple approaches to the problem of querying timelines, which is an
+						application area that
+						forces us to consider deeply how language models can be used to query data that is partially
+						structured and partially not.
 					</p>
 					<p>
 					</p>
@@ -259,13 +287,21 @@
 					<ul>
 						<li>Keti Korini, Christian Bizer. <b>Column Type Annotation using ChatGPT</b></li>
 						<li>Hamed Mirzaei, Davood Rafiei. <b>Table Union Search with Preferences</b></li>
-						<li>Liane Vogel, Carsten Binnig. <b>WikiDBs: A Corpus Of Relational Databases From Wikidata</b></li>
-						<li>Aneta Koleva, Martin Ringsquandl, Volker Tresp. <b>Adversarial Attacks on Tables with Entity Swap</b></li>
-						<li>Davood Rafiei, Arash Dargahi Nobari, Soroush Omidvartehrani. <b>Discovering and Integrating Tabular Data</b></li>
-						<li>Arif Usta, Semih Salihoglu. <b>To Join or Not to Join: An Analysis on the Usefulness of Joining Tables in Open Government Data Portals</b></li>
-						<li>Vijay S Kumar, Varish Mulwad, Jenny Williams, Tim  Finin, Sharad Dixit, Anupam Joshi. <b>Knowledge Graph-driven Tabular Data Discovery from Scientific Documents</b></li>
-						<li>Viet-Phi Huynh, Yoan Chabot, Raphael Troncy. <b>Towards Generative Semantic Table Interpretation</b></li>
-						<li>Eva Chrysostomaki, Maria Stratigi, Vasilis Efthymiou, Kostas Stefanidis, Dimitris Plexousakis. <b>Fair Sequential Group Recommendations in SQUIRREL Movies</b></li>
+						<li>Liane Vogel, Carsten Binnig. <b>WikiDBs: A Corpus Of Relational Databases From Wikidata</b>
+						</li>
+						<li>Aneta Koleva, Martin Ringsquandl, Volker Tresp. <b>Adversarial Attacks on Tables with Entity
+								Swap</b></li>
+						<li>Davood Rafiei, Arash Dargahi Nobari, Soroush Omidvartehrani. <b>Discovering and Integrating
+								Tabular Data</b></li>
+						<li>Arif Usta, Semih Salihoglu. <b>To Join or Not to Join: An Analysis on the Usefulness of
+								Joining Tables in Open Government Data Portals</b></li>
+						<li>Vijay S Kumar, Varish Mulwad, Jenny Williams, Tim Finin, Sharad Dixit, Anupam Joshi.
+							<b>Knowledge Graph-driven Tabular Data Discovery from Scientific Documents</b>
+						</li>
+						<li>Viet-Phi Huynh, Yoan Chabot, Raphael Troncy. <b>Towards Generative Semantic Table
+								Interpretation</b></li>
+						<li>Eva Chrysostomaki, Maria Stratigi, Vasilis Efthymiou, Kostas Stefanidis, Dimitris
+							Plexousakis. <b>Fair Sequential Group Recommendations in SQUIRREL Movies</b></li>
 					</ul>
 				</div>
 			</section>
@@ -278,12 +314,19 @@
 					</header>
 					<b>Organizing Committee:</b>
 					<ul>
-						<li><span itemprop="name"><a href="https://sites.google.com/site/vefthym/home">Vasilis Efthymiou</a></span> (main contact person)
+						<li><span itemprop="name"><a href="https://sites.google.com/site/vefthym/home">Vasilis
+									Efthymiou</a></span> (main contact person)
 						</li>
-						<li><span itemprop="name"><a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a></span></li>
-						<li><span itemprop="name"><a href="https://research.ibm.com/people/oktie-hassanzadeh">Oktie Hassanzadeh</a></span></li>
-						<li><span itemprop="name"><a href="https://www.city.ac.uk/about/people/academics/ernesto-jimenez-ruiz">Ernesto Jiménez-Ruiz</a></span></li>
-						<li><span itemprop="name"><a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Kavitha.Srinivas">Kavitha Srinivas</a></span></li>
+						<li><span itemprop="name"><a href="https://sainyamgalhotra.com/">Sainyam Galhotra</a></span>
+						</li>
+						<li><span itemprop="name"><a href="https://research.ibm.com/people/oktie-hassanzadeh">Oktie
+									Hassanzadeh</a></span></li>
+						<li><span itemprop="name"><a
+									href="https://www.city.ac.uk/about/people/academics/ernesto-jimenez-ruiz">Ernesto
+									Jiménez-Ruiz</a></span></li>
+						<li><span itemprop="name"><a
+									href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Kavitha.Srinivas">Kavitha
+									Srinivas</a></span></li>
 					</ul>
 					<b>Steering Committee:</b>
 					<ul>
