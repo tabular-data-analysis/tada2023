@@ -3946,3 +3946,20 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
+.expando {
+	cursor: pointer;
+	border-bottom-color: transparent;
+	border-bottom: dotted 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: currentcolor;
+}
+
+.expandable {
+	display: none;
+}
+
+div {
+	margin: 10px;
+}
