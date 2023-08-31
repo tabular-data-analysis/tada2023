@@ -3474,7 +3474,7 @@ body.is-preload #header.alt .logo {
 	font-size: 0.9em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 400px) {
 
 	#nav {
 		display: none;
@@ -3485,6 +3485,7 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
 
 /* Main */
 
